@@ -2,14 +2,14 @@ import './style.css';
 
 const tasks = [
   {
-     index: 0,
-     completed: false,
-     description: 'review this project',
+    index: 0,
+    completed: false,
+    description: 'review this project',
   },
   {
-     index: 1,
-     completed: true,
-     description: 'aprobe this project',
+    index: 1,
+    completed: true,
+    description: 'aprobe this project',
   },
 ];
 
