@@ -1,5 +1,5 @@
 const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');// eslint-disable-line import/no-unresolved
 
 module.exports = {
   entry: './src/index.js',
@@ -10,7 +10,7 @@ module.exports = {
   plugins: [
 
     new HtmlWebpackPlugin({
-        template: './src/index.html',
+      template: './src/index.html',
     }),
   ],
   output: {
@@ -18,7 +18,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     clean: true,
   },
-  
+
   module: {
     rules: [
       {

@@ -9,7 +9,7 @@
   width: 320px;
   box-shadow: 0 0 10px lightgrey;
   background-color: rgb(224, 230, 230);
-  cursor: pointer
+  cursor: pointer;
 }
 
 h1,
@@ -61,8 +61,8 @@ li {
 }
 
 .hello {
-    color: white;
-  }
+  color: white;
+}
 
 .clearAll {
   line-height: 3;
