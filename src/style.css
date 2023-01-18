@@ -1,3 +1,70 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkgrey;
+}
+
+.container {
+  display: grid;
+  margin: 0 auto;
+  width: 320px;
+  box-shadow: 0 0 10px lightgrey;
+  background-color: rgb(224, 230, 230);
+  cursor: pointer
+}
+
+h1,
+header,
+label,
+input,
+li,
+.taskCont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px #d9dde2 solid;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 100;
+  height: 40px;
+  padding-inline: 5px;
+  background-color: white;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+::placeholder {
+  color: lightgrey;
+  font-size: 1rem;
+  font-style: italic;
+  line-height: 2;
+}
+
+.taskCont input {
+  margin-inline-end: 15px;
+}
+
+li {
+  list-style: none;
+}
+
+.bloted {
+  text-decoration: line-through;
+}
+
+.outlinenone {
+  outline: none;
+  background-color: transparent;
+  border: 0;
+}
+
 .hello {
-    color: blue;
+    color: white;
   }
+
+.clearAll {
+  line-height: 3;
+  margin: 0 auto;
+}
