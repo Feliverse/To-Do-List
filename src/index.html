@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ToDoList by Feliverse</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDoList by Feliverse</title>
 </head>
+
 <body>
-    <h1>ToDoList</h1>
+  <div class="container">
+    <header>
+      <h1>Today's To Do </h1>
+      <div>&#128472</div>
+    </header>
+    <label for="inputNewTask">
+      <input type="text" id="inputNewTask" class="outlinenone" placeholder="Add to your list...">
+      <div id="btnNewTask">&#8629 </div>
+    </label>
+    <ul id="contenedorTask">
+      <li>
+        <div class="taskCont">
+          <input type="checkbox">
+          <div class="task"> Task 1</div>
+        </div>
+        <div class="icon">&#8942</div>
+      </li>
+      <li>
+        <div class="taskCont">
+          <input type="checkbox">
+          <div class="task bloted"> Task 1</div>
+        </div>
+        <div class="icon">&#8942</div>
+      </li>
+    </ul>
+    <div id="clearAll" class="clearAll">Clear all completed</div>
+  </div>
 </body>
+
 </html>
