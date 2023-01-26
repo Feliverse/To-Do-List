@@ -2,25 +2,32 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ToDoList by Feliverse</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To Do List</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-  <div class="container">
-    <header>
-      <h1>Today's To Do </h1>
-      <div>&#128472</div>
-    </header>
-    <label for="inputNewTask">
-      <input type="text" id="inputNewTask" class="outlinenone" placeholder="Add to your list...">
-      <div id="btnNewTask">&#8629 </div>
-    </label>
-    <ul id="contenedorTask" class="todo-list">
-    </ul>
-    <div id="clearAll" class="clearAll">Clear all completed</div>
-  </div>
+  <main>
+    <div class="contenedor">
+      <div class="header">
+        <h3>Today's To Do</h3>
+        <button class="referesh"><i class="fa-solid fa-arrows-rotate"></i></button>
+      </div>
+      <form action="">
+        <input class="listInput" type="text" placeholder="Add to your list..." />
+        <button class="addList"><i class="fa-solid fa-check"></i></button>
+      </form>
+      <section class="todo-lists">
+        <ul class="lists">
+        </ul>
+        <button type="button" class="clear">Clear all completed</button>
+      </section>
+    </div>
+  </main>
 </body>
 
 </html>
