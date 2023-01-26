@@ -12,7 +12,7 @@ export default class Status {
               completed: true,
             };
           }
-  
+
           return list;
         });
       } else {
@@ -24,10 +24,10 @@ export default class Status {
               completed: false,
             };
           }
-  
+
           return list;
         });
       }
       localStorage.setItem('Lists', JSON.stringify(listUpdated));
     };
-  }
+}
