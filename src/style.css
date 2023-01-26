@@ -1,70 +1,114 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
-  color: darkgrey;
+  color: #464646;
 }
 
-.container {
+body {
   display: grid;
-  margin: 0 auto;
-  width: 320px;
-  box-shadow: 0 0 10px lightgrey;
-  background-color: rgb(224, 230, 230);
-  cursor: pointer;
+  justify-content: center;
+  align-items: flex-start;
 }
 
-h1,
-header,
-label,
-input,
-li,
-.taskCont {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px #d9dde2 solid;
-  font-size: 1rem;
+.contenedor {
+  box-shadow: 0px 10px 25px #a9a9a9;
+}
+
+h3 {
   font-style: normal;
   font-weight: 100;
-  height: 40px;
-  padding-inline: 5px;
-  background-color: white;
-}
-
-ul {
-  padding: 0;
   margin: 0;
-}
-
-::placeholder {
-  color: lightgrey;
-  font-size: 1rem;
-  font-style: italic;
-  line-height: 2;
-}
-
-.taskCont input {
-  margin-inline-end: 15px;
 }
 
 li {
   list-style: none;
 }
 
-.bloted {
-  text-decoration: line-through;
+ul {
+  padding: 0;
 }
 
-.outlinenone {
+::placeholder {
+  font-style: italic;
+  font-size: medium;
+}
+
+button {
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  line-height: 2;
+  border-bottom: 1px solid #a9a9a9;
+}
+
+button.clear {
+  text-align: center;
+  font-size: medium;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+} 
+
+input {
+  padding-left: 10px;
+  border: none;
+}
+
+input:focus {
   outline: none;
-  background-color: transparent;
-  border: 0;
+  border: none;
 }
 
-.hello {
-  color: white;
+.todo-lists {
+  display: flex;
+  flex-direction: column;
 }
 
-.clearAll {
-  line-height: 3;
-  margin: 0 auto;
+.lists {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  border-block: 1px solid #a9a9a9;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 3%;
+}
+
+.clear {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  background-color: #ece3e3;
+  padding: 20px;
+  width: 100%;
+}
+
+.description {
+  padding: 3%; 
+}
+
+.inactive {
+  display: none;
+}
+
+.editButton {
+  display: flex;
 }
