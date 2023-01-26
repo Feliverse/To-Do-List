@@ -55,8 +55,8 @@ export default class Todo {
     const { description } = listCollection[listIndex - 1];
     const editForm = document.querySelector(`.c-${listIndex}`);
     editForm.innerHTML = `
-        <form action="">
-          <i class="fa-solid fa-pencil"></i>
+        <form>
+          <i class="fa-solid fa-edit"></i>
           <input class="editInput" type="text" value="${description}"/>
           <button class="editList"></i></button>
        </form>
