@@ -1,29 +1,21 @@
 import './style.css';
+import Todo from './modules/todoList.js';
+import Completed from './modules/completed.js';
 
-const tasks = [
-  {
-    index: 0,
-    completed: false,
-    description: 'review this project',
-  },
-  {
-    index: 1,
-    completed: true,
-    description: 'aprobe this project',
-  },
-];
+const todoClass = new Todo();
+const completed = new Completed();
 
-const printTodoList = () => {
-  const listContainer = document.querySelector('.todo-list');
-  tasks.forEach((todo) => {
-    listContainer.innerHTML += `<li>
-    <div class="taskCont">
-      <input type="checkbox">
-      <div class="task">${todo.description}</div>
-    </div>
-    <div class="icon">&#8942</div>
-  </li>
-`;
-  });
-};
-printTodoList();
+const addButton = document.querySelector('.addList');
+const clearButton = document.querySelector('.clear');
+
+addButton.addEventListener('click', (event) => {
+  event.preventDefault();
+  const inputValue = document.querySelector('.listInput').value;
+  if (inputValue !== '') todoClass.addList();
+});
+
+clearButton.addEventListener('click', () => {
+  completed.clearCompleted();
+});
+
+todoClass.showList();
