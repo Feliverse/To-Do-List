@@ -42,6 +42,7 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  gap: 10rem;
   line-height: 2;
   border-bottom: 1px solid #a9a9a9;
 }
@@ -59,7 +60,7 @@ form {
 }
 
 input {
-  padding-left: 10px;
+  padding-inline: 10px;
   border: none;
 }
 
@@ -89,6 +90,7 @@ input:focus {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  gap: 15px;
   margin-left: 3%;
 }
 
@@ -102,7 +104,7 @@ input:focus {
 }
 
 .description {
-  padding: 3%;
+  padding: 5px 5px;
 }
 
 .inactive {
@@ -111,4 +113,12 @@ input:focus {
 
 .editButton {
   display: flex;
+}
+
+.editInput {
+  font-size: large;
+}
+
+.completed {
+  text-decoration: line-through;
 }
