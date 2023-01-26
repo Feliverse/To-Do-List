@@ -30,7 +30,7 @@ After you're finished please remove all the comments and instructions!
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>To Do List by Feliverse</b></h3>
 
 </div>
 
@@ -60,9 +60,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Conference Page - Microverse Capstone <a name="about-project"></a>
+# 📖 To Do List <a name="about-project"></a>
 
-**To Do List** is a tool created using webpack
+**To Do List** is a tool created using webpack where you register import tasks to do day by day
 
 ## 🛠 Built With <a name="built-with"></a>
 
