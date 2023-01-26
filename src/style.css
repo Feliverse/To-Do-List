@@ -10,7 +10,7 @@ body {
 }
 
 .contenedor {
-  box-shadow: 0px 10px 25px #a9a9a9;
+  box-shadow: 0 10px 25px #a9a9a9;
 }
 
 h3 {
@@ -57,7 +57,7 @@ form {
   justify-content: space-between;
   align-items: center;
   height: 3rem;
-} 
+}
 
 input {
   padding-inline: 10px;
@@ -117,9 +117,8 @@ input:focus {
 
 .editInput {
   font-size: large;
- 
 }
 
 .completed {
-    text-decoration: line-through;
+  text-decoration: line-through;
 }
