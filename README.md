@@ -24,111 +24,207 @@ OPTIONAL SECTIONS:
 
 After you're finished please remove all the comments and instructions!
 -->
-Minimalist ToDo List
-📗 Table of Contents
-📖 About the Project
-🛠 Built With
-Tech Stack
-Key Features
-🚀 Live Demo
-💻 Getting Started
-Setup
-Prerequisites
-Install
-Usage
-Run tests
-Deployment
-👥 Authors
-🔭 Future Features
-🤝 Contributing
-⭐️ Show your support
-🙏 Acknowledgements
-❓ FAQ (OPTIONAL)
-📝 License
-📖 [ToDo List]
-ToDo List is a simple TODO list application created using webpack
 
-🛠 Built With
-Visual Studio
-JavaScript
-Html Css
+<div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Microverse README Template</b></h3>
+
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 Conference Page - Microverse Capstone <a name="about-project"></a>
+
+**To Do List** is a tool created using webpack
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+HTML/CSS & Javascript
 Using Webpack for project developement
-(back to top)
 
-🚀 Live Demo
-Live Demo Link
-(back to top)
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
 
-💻 Getting Started
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **Webpack**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+coming soon
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
 To get a local copy up and running, follow these steps.
 
-Prerequisites
-In order to run this project you need: git CLI, node and npm installed in your local system.
+### Prerequisites
 
-Setup
+In order to run this project you need:
+
+to love coding
+
+### Setup
+
 Clone this repository to your desired folder:
 
+ ```sh
   cd my-folder
   git clone https://github.com/Feliverse/To-Do-List.git
-Install
-Install module dependencies using npm.
+```
+--->
 
+### Install
+
+Install this project with:
+```sh
   cd my-project
   npm install
-Usage
-To run the project using Webpack devserver, execute the following command:
+```
+--->
+### Usage
 
-  npm run start
+To run the project, execute the following command:
 
-Deployment
-You can deploy this project using: Github page or any hosting service of your choice.
+ npm run start
 
-Please refer to Github pages deployment guide.
+### Deployment
 
-(back to top)
+You can deploy this project using:
 
-👥 Author
-Felipe Haybar
+a Browser
 
-GitHub: @Feliverse
-Twitter: @FelipeHaybar
-LinkedIn: felipehaybar
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Author <a name="authors"></a>
 
 
-GitHub: @feliverse
-(back to top)
+👤 **Felipe Haybar**
 
-🔭 Future Features
- Use mouse drag to change the ordering of task in the list
-(back to top)
+- GitHub: [@Feliverse](https://github.com/Feliverse)
+- Twitter: [@FelipeHaybar](https://twitter.com/FelipeHaybar)
+- LinkedIn: [FelipeHaybar](https://linkedin.com/in/FelipeHaybar)
 
-🤝 Contributing
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+
+- [ ] **Live demo**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the issues page.
+Feel free to check the [issues page](../../issues/).
 
-(back to top)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-⭐️ Show your support
-If you like this project, please give a STAR to the project repository on Github
+<!-- SUPPORT -->
 
-project repository
+## ⭐️ Show your support <a name="support"></a>
 
-(back to top)
 
-🙏 Acknowledgments
-(back to top)
+If you like this project bring me a star ⭐️ at the Github repository.
 
-❓ FAQ (OPTIONAL)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank my code partners: Anderson Canales and Jorge Singûeza.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
 What is the license policy for this project?
 
 This project is MIT licensed, please refer to the License.md file for more information.
 How to setup webpack for this project
 
 To get started with webpack setup, please refer to the following webpack tutorial.
-(back to top)
 
-📝 License
-This project is MIT licensed.
 
-(back to top)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
