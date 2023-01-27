@@ -35,6 +35,7 @@
     "webpack-dev-server": "^4.11.1"
   },
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.5.0"
   }
 }
