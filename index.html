@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To Do List</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script defer src="runtime.js"></script><script defer src="main.js"></script></head>
+
+<body>
+  <main>
+    <div class="contenedor">
+      <div class="header">
+        <h3>Today's To Do</h3>
+        <button class="referesh"><i class="fa-solid fa-arrows-rotate"></i></button>
+      </div>
+      <form action="">
+        <input class="listInput" type="text" placeholder="Add to your list..." />
+        <button class="addList"><i class="fa-solid fa-check"></i></button>
+      </form>
+      <section class="todo-lists">
+        <ul class="lists">
+          <!-- Dynamically generated lists goes here.. -->
+        </ul>
+        <button type="button" class="clear">Clear all completed</button>
+      </section>
+    </div>
+  </main>
+</body>
+
+</html>
