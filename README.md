@@ -107,7 +107,7 @@ Using Webpack for project developement
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-coming soon
+[See Live](https://feliverse.github.io/To-Do-List/) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
