@@ -2,9 +2,9 @@
  * @jest-environment jsdom
  */
 
-import Todo from '../util/addDeleteTask';
-import createDom from '../test/__mocks__/fakeDom.js';
-import { getStorage, fillStorage }  from '../test/__mocks__/fakelocalstorage.js';
+import Todo from '../util/addDeleteTask.js';
+import createDom from './__mocks__/fakeDom.js';
+import { getStorage } from './__mocks__/fakelocalstorage.js';
 
 describe('test ', () => {
   const list = new Todo();
