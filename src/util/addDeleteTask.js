@@ -1,4 +1,4 @@
-import { fillStorage, storage } from '../test/__mocks__/fakelocalstorage.js';
+import { fillStorage, storage } from '../test/__mocks__/fakelocalstorage';
 
 export default class Todo {
   todoListCollection = [];
@@ -8,11 +8,8 @@ export default class Todo {
     fillStorage();
   }
 
-  setList = (list) => {
-    this.todoListCollection = list;
-    return this.todoListCollection;
-  }
-
+  setList = (list) => this.todoListCollection = list;
+  
   getLists = () => this.todoListCollection;
 
   addList = (description, completed, index) => {
@@ -29,4 +26,8 @@ export default class Todo {
     return li;
   }
 
+  deleteList = (index) => {
+    const result = this.todoListCollection.filter((list, i) => i !== index);
+    this.todoListCollection = result;
+  }
 }
