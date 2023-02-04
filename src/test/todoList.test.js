@@ -9,7 +9,7 @@ import { getStorage } from './__mocks__/fakelocalstorage.js';
 describe('test ', () => {
   const list = new Todo();
   test('test local storage', () => {
-    expect(getStorage()).toHaveLength(2);
+    expect(getStorage()).toHaveLength(4);
   });
 
   test('test add list function', () => {

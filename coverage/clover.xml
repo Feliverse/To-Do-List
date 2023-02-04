@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1675492965677" clover="3.2.0">
-  <project timestamp="1675492965678" name="All files">
-    <metrics statements="15" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3" elements="19" coveredelements="16" complexity="0" loc="15" ncloc="15" packages="1" files="1" classes="1"/>
-    <file name="addDeleteTask.js" path="C:\Users\NSHANJI\Desktop\feilpe\To-Do-List\src\util\addDeleteTask.js">
-      <metrics statements="15" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
+<coverage generated="1675520667632" clover="3.2.0">
+  <project timestamp="1675520667633" name="All files">
+    <metrics statements="36" coveredstatements="33" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="10" elements="49" coveredelements="43" complexity="0" loc="36" ncloc="36" packages="1" files="2" classes="2"/>
+    <file name="addDeleteTask.js" path="D:\Users\FELIPE HAYBAR\Documents\GitHub\To-Do-List-Feliverse\src\util\addDeleteTask.js">
+      <metrics statements="18" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="5"/>
       <line num="4" count="1" type="stmt"/>
       <line num="7" count="1" type="stmt"/>
       <line num="8" count="1" type="stmt"/>
       <line num="11" count="1" type="stmt"/>
       <line num="12" count="0" type="stmt"/>
       <line num="13" count="0" type="stmt"/>
-      <line num="16" count="1" type="stmt"/>
+      <line num="16" count="2" type="stmt"/>
       <line num="18" count="1" type="stmt"/>
       <line num="19" count="3" type="stmt"/>
       <line num="24" count="3" type="stmt"/>
@@ -19,6 +19,30 @@
       <line num="27" count="3" type="stmt"/>
       <line num="28" count="3" type="stmt"/>
       <line num="29" count="3" type="stmt"/>
+      <line num="32" count="1" type="stmt"/>
+      <line num="33" count="3" type="stmt"/>
+      <line num="34" count="1" type="stmt"/>
+    </file>
+    <file name="editUpdateClearTask.js" path="D:\Users\FELIPE HAYBAR\Documents\GitHub\To-Do-List-Feliverse\src\util\editUpdateClearTask.js">
+      <metrics statements="18" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="5"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="22" count="1" type="stmt"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="24" count="1" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="28" count="1" type="stmt"/>
+      <line num="29" count="1" type="stmt"/>
+      <line num="30" count="1" type="stmt"/>
+      <line num="31" count="1" type="stmt"/>
+      <line num="34" count="1" type="stmt"/>
+      <line num="35" count="2" type="stmt"/>
+      <line num="36" count="1" type="stmt"/>
+      <line num="37" count="1" type="stmt"/>
+      <line num="40" count="1" type="stmt"/>
+      <line num="42" count="1" type="stmt"/>
+      <line num="43" count="0" type="stmt"/>
     </file>
   </project>
 </coverage>
