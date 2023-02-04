@@ -29,8 +29,4 @@ export default class Todo {
     return li;
   }
 
-  deleteList = (index) => {
-    const result = this.todoListCollection.filter((list, i) => i !== index);
-    this.todoListCollection = result;
-  }
 }
