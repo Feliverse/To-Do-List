@@ -20,10 +20,10 @@ export default class Todo {
   }
 
  editList = (index, content) => {
-    storage[index].description = content;
-    this.todoListCollection[index].description = content;
-    localStorage.setItem('localStorageTasks', JSON.stringify(this.todoListCollection));
-  }
+   storage[index].description = content;
+   this.todoListCollection[index].description = content;
+   localStorage.setItem('localStorageTasks', JSON.stringify(this.todoListCollection));
+ }
 
   showList = (index, state) => {
     storage[index].completed = state;

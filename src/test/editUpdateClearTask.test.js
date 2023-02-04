@@ -3,7 +3,7 @@
  */
 import Todo from '../util/editUpdateClearTask.js';
 // import createDom from './__mocks__/fakeDom.js';
-import { fillStorage, getStorage, storage } from '../test/__mocks__/fakelocalstorage.js';
+import { fillStorage, getStorage, storage } from './__mocks__/fakelocalstorage.js';
 
 describe('test update edit and clear methods', () => {
   const task = new Todo();
@@ -18,11 +18,10 @@ describe('test update edit and clear methods', () => {
     task.showList(1, true);
     expect(getStorage()[1].completed).toBeTruthy();
   });
- 
+
   test('clear all completed ', () => {
     task.clearCompleted(storage);
     expect(getStorage()[2]).toBeUndefined();
     expect(getStorage()[3]).toBeUndefined();
   });
-
 });

@@ -1,4 +1,4 @@
-let storage = [];
+const storage = [];
 const fillStorage = () => {
   storage.push(
     {
@@ -26,9 +26,9 @@ const fillStorage = () => {
 
 const getStorage = () => storage;
 const setStorage = (newStorage) => {
-  for (let i = 0 ; i < storage.length; i++){
-    storage[i] = newStorage[i]
-    }
+  for (let i = 0; i < storage.length; i += 1) {
+    storage[i] = newStorage[i];
+  }
 };
 
 export {
