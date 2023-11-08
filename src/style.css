@@ -1,22 +1,39 @@
 * {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #464646;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #473c3c;
 }
 
 body {
   display: grid;
   justify-content: center;
   align-items: flex-start;
+  background-image: url(./background.jpg);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin-top: 15%;
+  gap: 1rem;
+  background-color: #fff;
 }
 
 .contenedor {
   box-shadow: 0 10px 25px #a9a9a9;
+  background-color: #fff;
+  border-radius: 15px;
 }
 
 h3 {
-  font-style: normal;
-  font-weight: 100;
-  margin: 0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style:italic;
+  font-weight: 600;
+  margin: 5% 0;
+  width: 120px;
+  font-size: 1.2rem;
 }
 
 li {
@@ -41,15 +58,17 @@ button {
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
   gap: 10rem;
   line-height: 2;
-  border-bottom: 1px solid #a9a9a9;
+  border-bottom: 1px solid #aa9b9b;
+  padding: 0 10px;
+  border-radius: 15px;
 }
 
 button.clear {
   text-align: center;
   font-size: medium;
+  font-weight: bolder;
 }
 
 form {
@@ -60,7 +79,7 @@ form {
 }
 
 input {
-  padding-inline: 10px;
+  padding-inline: 1rem;
   border: none;
 }
 
@@ -83,14 +102,14 @@ input:focus {
 .list {
   display: flex;
   justify-content: space-between;
-  border-block: 1px solid #a9a9a9;
+  border-block: 1px solid #aaa1a1;;
 }
 
 .content {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  gap: 15px;
+  gap: 1rem;
   margin-left: 3%;
 }
 
@@ -101,6 +120,22 @@ input:focus {
   background-color: #ece3e3;
   padding: 20px;
   width: 100%;
+}
+
+button.clear {
+  font-size: medium;
+  font-weight: bolder;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+button.clear:hover {
+  background-color: #532a2a;
+  color:#fff;
+}
+
+.header: {
+  background-color: #b11f1f;
 }
 
 .description {
@@ -121,4 +156,5 @@ input:focus {
 
 .completed {
   text-decoration: line-through;
+  color:rgb(189, 230, 231)
 }
