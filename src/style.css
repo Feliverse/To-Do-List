@@ -1,5 +1,5 @@
 * {
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: #473c3c;
 }
 
@@ -28,8 +28,8 @@ main {
 }
 
 h3 {
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-style:italic;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
   font-weight: 600;
   margin: 5% 0;
   width: 120px;
@@ -69,6 +69,8 @@ button.clear {
   text-align: center;
   font-size: medium;
   font-weight: bolder;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 form {
@@ -102,7 +104,7 @@ input:focus {
 .list {
   display: flex;
   justify-content: space-between;
-  border-block: 1px solid #aaa1a1;;
+  border-block: 1px solid #aaa1a1;
 }
 
 .content {
@@ -122,16 +124,9 @@ input:focus {
   width: 100%;
 }
 
-button.clear {
-  font-size: medium;
-  font-weight: bolder;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-}
-
 button.clear:hover {
   background-color: #532a2a;
-  color:#fff;
+  color: #fff;
 }
 
 .header: {
@@ -156,5 +151,5 @@ button.clear:hover {
 
 .completed {
   text-decoration: line-through;
-  color:rgb(189, 230, 231)
+  color: rgb(189, 230, 231);
 }
