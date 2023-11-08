@@ -174,7 +174,7 @@ a Browser
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **Live demo**
+- [ ] **Clear all tasck buttom**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
