@@ -21,6 +21,10 @@ main {
   background-color: #fff;
 }
 
+button.addlist {
+  padding-right: 1rem;
+}
+
 .contenedor {
   box-shadow: 0 10px 25px #a9a9a9;
   background-color: #fff;
@@ -139,6 +143,7 @@ button.clear:hover {
 
 .editButton {
   display: flex;
+  padding-right: 1rem;
 }
 
 .editInput {
