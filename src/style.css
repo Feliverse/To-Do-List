@@ -7,7 +7,7 @@ body {
   display: grid;
   justify-content: center;
   align-items: flex-start;
-  background-image: url(./background.jpg);
+  background-color: #2badd4;
 }
 
 main {
