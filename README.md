@@ -137,7 +137,7 @@ Clone this repository to your desired folder:
 
 Install this project with:
 ```sh
-  cd my-project
+  cd TO-DO-LIST
   npm install
 ```
 --->
@@ -164,7 +164,7 @@ a Browser
 
 - GitHub: [@Feliverse](https://github.com/Feliverse)
 - Twitter: [@FelipeHaybar](https://twitter.com/FelipeHaybar)
-- LinkedIn: [FelipeHaybar](https://linkedin.com/in/FelipeHaybar)
+- LinkedIn: [FelipeHaybar](https://linkedin.com/in/Haybar)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
